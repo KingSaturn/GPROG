@@ -339,7 +339,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -420,6 +420,7 @@ GameObject:
   - component: {fileID: 4785570104836768738}
   - component: {fileID: 4785570104836768733}
   - component: {fileID: 4785570104836768732}
+  - component: {fileID: 3448164534732598441}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -503,10 +504,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4785570104836768739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d77573e7cccdfb40a865d4133520068, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d5bacb4021c0024f9f1cacdaa881aa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 0
   Textref: {fileID: 4785570104288641436}
   speed: 10
   cam: {fileID: 4785570104284484556}
@@ -540,3 +541,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3448164534732598441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785570104836768739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5bacb4021c0024f9f1cacdaa881aa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  Textref: {fileID: 0}
+  speed: 10
+  cam: {fileID: 0}

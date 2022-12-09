@@ -5,7 +5,7 @@ public class MenuButtons : MonoBehaviour
 {
     public void StartButton()
     {
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Scene0"));
+        SceneManager.LoadScene("Scene0", LoadSceneMode.Single);
     }
     public void QuitButton()
     {
